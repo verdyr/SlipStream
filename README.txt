@@ -1,4 +1,4 @@
-This project implements data and computation interoperability in services. 
+This project is about implementation and semantic description of computation which can be represented in a machine understandable way and sent to another execution environment where, using the semantic, it can be reconstructed and computed. 
 
 Currently : 26/02/2012 
 optimization is not the task but functionalities (data, computation, identity and performance analysis) and architectural choices are priority at moment
