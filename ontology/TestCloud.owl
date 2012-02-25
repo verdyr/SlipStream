@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY TestCloud "http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:TestCloud="http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ChainHasFunction -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;ChainHasFunction">
+        <rdfs:comment>Property to associate a chain with a function inside the chain. It is similar to a membership relationship</rdfs:comment>
+        <rdfs:range rdf:resource="&TestCloud;Computation"/>
+        <rdfs:domain rdf:resource="&TestCloud;ComputationalChain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;ClosureHasInputPort">
+        <rdfs:comment>Property to connect a closure with one of its inputport. The different input ports are distingueshied through their URI or, more often, throught their names</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Computation"/>
+        <rdfs:range rdf:resource="&TestCloud;Port"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;ClosureHasOutputPort">
+        <rdfs:comment>Property to connect a closure with one of its outputport. The different output ports are distingueshied through their URI or, more often, throught their names</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Computation"/>
+        <rdfs:range rdf:resource="&TestCloud;Port"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;ComputationHasFunctionalBehaviour">
+        <rdfs:domain rdf:resource="&TestCloud;Computation"/>
+        <rdfs:range rdf:resource="&TestCloud;FunctionalBehaviour"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#FunctionalParameterChainHasFunction -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;FunctionalParameterChainHasFunction">
+        <rdfs:comment>This property exist for distinguishing a computational chain to be executed from one intended as input of a HOF. This property will not exist in future versions of this ontology because this distiction should be made at class level or through reasoning on the graph</rdfs:comment>
+        <rdfs:range rdf:resource="&TestCloud;AtomicClosure"/>
+        <rdfs:domain rdf:resource="&TestCloud;ComputationalChain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#FunctionalParameterHasFunctionalChain -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;FunctionalParameterHasFunctionalChain">
+        <rdfs:comment>Property which attach a functional parameter to the corresponding functional chain</rdfs:comment>
+        <rdfs:range rdf:resource="&TestCloud;ComputationalChain"/>
+        <rdfs:domain rdf:resource="&TestCloud;FunctionalParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;PortAttachedToPar">
+        <rdfs:comment>Relationship tpo associate a parameter (and so a future or present value) to a port</rdfs:comment>
+        <rdfs:range rdf:resource="&TestCloud;Parameter"/>
+        <rdfs:domain rdf:resource="&TestCloud;Port"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter -->
+
+    <owl:ObjectProperty rdf:about="&TestCloud;VectorParhasParameter">
+        <rdfs:comment>Property to connect a Vector-Parameter with the parameters it contains</rdfs:comment>
+        <rdfs:range rdf:resource="&TestCloud;Parameter"/>
+        <rdfs:domain rdf:resource="&TestCloud;VectorialParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;ClosureHasName">
+        <rdfs:comment>The name of a closure, note: curently (december 2010) it is used like an URI but it is a literal. This is for simplity reason, to substitute this is necessary a Class Closure type with the type of the closures implemented or subclassing the right subclass of the ComputationClass(15 december 2010)</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Computation"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;ParHasDatatype">
+        <rdfs:comment>The datatype of the value of a parameter. Who reads the value, if doesn,t know the type,  is supposed to query for the type and then use the obtained information to interpret the value.</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Parameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;ParHasValue">
+        <rdfs:comment>It connect a parameter to a string which represent a value, this value is the value of the parameter and has as type the type of the parameter. Who reads the value, if doesn&#39;t know the type, is supposed to query for the type and then use the obtained information to interpret the value.</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Parameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;ParIsValid">
+        <rdfs:comment>At moment is a literal value, perhaps boolean is sufficient. This property is used to state if a paramenter has a valid value or if its value is still too be calculeted. Note: with parameter with a single value it is redundant because the existence of the value can be checked instead of the object pointed by this function. With Vectorial parameters it becames probably very oimportant</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Parameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;ParhasPositionInVector">
+        <rdfs:comment>Indicates the index in a vector of parameter</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;VectorialParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;PortHasDatatype">
+        <rdfs:comment>Associates the port with its datattype.</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Port"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;PortHasName">
+        <rdfs:comment>Very importantdatatype property which bind the portURI with its place in the function signaure</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;Port"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension -->
+
+    <owl:DatatypeProperty rdf:about="&TestCloud;VectorParhasDimension">
+        <rdfs:comment>dimension of a vectorial parameter</rdfs:comment>
+        <rdfs:domain rdf:resource="&TestCloud;VectorialParameter"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure -->
+
+    <owl:Class rdf:about="&TestCloud;AtomicClosure">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Computation"/>
+        <rdfs:comment>A computational unit, can be related, alone or connected with other closures, to a computational chain</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Computation -->
+
+    <owl:Class rdf:about="&TestCloud;Computation">
+        <rdfs:comment>Generic Class for computation still not used at december 2010
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationalChain -->
+
+    <owl:Class rdf:about="&TestCloud;ComputationalChain">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Computation"/>
+        <rdfs:comment>This Class represent a generic computation that is made up of one or more atomic blocks
+Currently (14-12-2010)it is the elementar unit that can be sent to a remote unit forexecution </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#FunctionalBehaviour -->
+
+    <owl:Class rdf:about="&TestCloud;FunctionalBehaviour">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Computation"/>
+        <rdfs:comment>Class added after 14-12-2010, it is the class tha possiblly is extended with new instances when a new named computation is created. Currently(15-12-2010)  the association of Computation with implemented functionality is made by the datatype property &quot;name&quot;. A possible change is subclassing the Coputation Class, another is using this class and the ObjectProperty HasFunctionalBehaviour. This class is work in progress it could be merged in some way with the Computation subclasses perhaps</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#FunctionalParameter -->
+
+    <owl:Class rdf:about="&TestCloud;FunctionalParameter">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Parameter"/>
+        <rdfs:comment>Class for using Computation as a Parameter. So for dealing explicitly with higher order functions. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter -->
+
+    <owl:Class rdf:about="&TestCloud;Parameter">
+        <rdfs:comment>Class representing the Data, more subclass of this should be used e.g. single_value_Parameter, Vectorial parameter </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Port -->
+
+    <owl:Class rdf:about="&TestCloud;Port"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort -->
+
+    <owl:Class rdf:about="&TestCloud;SingleParPort">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParameter -->
+
+    <owl:Class rdf:about="&TestCloud;SingleParameter">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Parameter"/>
+        <rdfs:comment>A container for a value representable as a String</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort -->
+
+    <owl:Class rdf:about="&TestCloud;VectorParPort">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter -->
+
+    <owl:Class rdf:about="&TestCloud;VectorialParameter">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Parameter"/>
+        <rdfs:comment>SubClass of Parameter indicating those parameters used as container for other parameters of the same type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#functionalParPort -->
+
+    <owl:Class rdf:about="&TestCloud;functionalParPort">
+        <rdfs:subClassOf rdf:resource="&TestCloud;Port"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Add3IntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;Add3IntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>URI which identifies the univocally the functionality of adding three integers obtaining an integer. From this comment or from other descriptive comments of this entity should be possible to arrive to  a resource which thescribes in detail the features of this closure.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddIntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;AddIntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>URI which identifies the univocally the functionality of adding two integer obtaining an integer. From this comment or from other descriptive comments of this entity should be possible to arrive to  a resource which thescribes in detail the features of this closure.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddSubIntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;AddSubIntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>URI which identifies the univocally the functionality of: giving the sum and the difference of two integer input values. From this comment or from other descriptive comments of this entity should be possible to arrive to  a resource which thescribes in detail the features of this closure.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddSubVecIntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;AddSubVecIntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>Two single inputs and one vectorial output containing the sum and the difference</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;AddVectorIntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>A vectorial input and a single input containing the sum of the element of the input Vector</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#MapClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;MapClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>A functional input and a vectorial input. The output Vector contains the results of the application of the functional input to each of the element of the input vector</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SubIntClosure -->
+
+    <owl:NamedIndividual rdf:about="&TestCloud;SubIntClosure">
+        <rdf:type rdf:resource="&TestCloud;FunctionalBehaviour"/>
+        <rdfs:comment>URI which identifies the univocally the functionality of subtractingtwo integers obtaining an integer. From this comment or from other descriptive comments of this entity should be possible to arrive to  a resource which thescribes in detail the features of this closure.</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.20069) http://owlapi.sourceforge.net -->
+

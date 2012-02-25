@@ -1,0 +1,6 @@
+E:\Code\WCF\WCFClient\WCFProxy\bin\Debug\WCFProxy.dll
+E:\Code\WCF\WCFClient\WCFProxy\bin\Debug\WCFProxy.pdb
+E:\Code\WCF\WCFClient\WCFProxy\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Code\WCF\WCFClient\WCFProxy\obj\x86\Debug\WCFProxy.dll
+E:\Code\WCF\WCFClient\WCFProxy\obj\x86\Debug\WCFProxy.pdb
+E:\Code\WCF\WCFClient\WCFProxy\bin\Debug\WCFProxy.dll.config

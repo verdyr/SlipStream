@@ -1,0 +1,11 @@
+Closure:
+URI: 1ef404eb-2977-4811-b9c9-5c942f6bc5daName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddSubIntClosureinput ports:
+port index = 0 + name = In1URI= 8dc32760-050a-4ef5-aef3-c5d1e31681fd
+parameter URI: b2b2b9f1-ea42-45bb-bc6f-7151f755e5af ParameterValue: nullParameterValid false
+port index = 1 + name = In2URI= 75a99304-489b-4b8c-84c5-56f1732f5899
+parameter URI: d6caddbf-c6c7-4963-b4f1-edf804f00d5b ParameterValue: nullParameterValid false
+output ports:
+port index = 0 + name = OutSumURI= 951b347b-feb3-43ba-85ce-76a277ee8d7e
+parameter URI: 70f34be5-550e-4a47-895d-5ed1ad322b5f ParameterValue: nullParameterValid false
+port index = 1 + name = OutDiffURI= f8abe9b7-1d62-4bce-b660-1901abb8ea5e
+parameter URI: 5d54ed37-e829-4a80-a669-1b6d09cc3713 ParameterValue: nullParameterValid false

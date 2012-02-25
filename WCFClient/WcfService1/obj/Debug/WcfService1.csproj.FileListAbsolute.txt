@@ -1,0 +1,7 @@
+E:\Code\WCF\WCFClient\WcfService1\bin\WcfService1.dll
+E:\Code\WCF\WCFClient\WcfService1\bin\WcfService1.pdb
+E:\Code\WCF\WCFClient\WcfService1\bin\WCFInterface.dll
+E:\Code\WCF\WCFClient\WcfService1\bin\WCFInterface.pdb
+E:\Code\WCF\WCFClient\WcfService1\obj\Debug\ResolveAssemblyReference.cache
+E:\Code\WCF\WCFClient\WcfService1\obj\Debug\WcfService1.dll
+E:\Code\WCF\WCFClient\WcfService1\obj\Debug\WcfService1.pdb

@@ -1,0 +1,749 @@
+Final URI of the input of the closure before serialization: bbd7761c-67a1-4745-9cbb-ce915aa81045
+Closure:
+URI: a8d82954-a6a2-4156-b732-e85208417c8aName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@32c41aURI= f6ea1f50-f0d9-412b-9569-6a62280c8085
+parameter URI: bbd7761c-67a1-4745-9cbb-ce915aa81045 ParameterValid: true
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@e89b94URI= 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6
+parameter URI: 51609b44-f393-4871-9e9e-e68e63619b5e ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: a8d82954-a6a2-4156-b732-e85208417c8a
+Triples:
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = f6ea1f50-f0d9-412b-9569-6a62280c8085;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = bbd7761c-67a1-4745-9cbb-ce915aa81045;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 3;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = 95d107f1-f377-4088-a3c8-84a417013385;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 1;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 0;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = c0ae7e06-f8be-44b2-8937-603ab577267e;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 2;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 1;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = 78a06c7a-026e-4417-aca6-ee28910779cf;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 3;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 2;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 51609b44-f393-4871-9e9e-e68e63619b5e;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: a8d82954-a6a2-4156-b732-e85208417c8aName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@32c41aURI= f6ea1f50-f0d9-412b-9569-6a62280c8085
+parameter URI: bbd7761c-67a1-4745-9cbb-ce915aa81045 ParameterValid: true
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@e89b94URI= 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6
+parameter URI: 51609b44-f393-4871-9e9e-e68e63619b5e ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: a8d82954-a6a2-4156-b732-e85208417c8a
+Triples:
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = f6ea1f50-f0d9-412b-9569-6a62280c8085;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = bbd7761c-67a1-4745-9cbb-ce915aa81045;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = f6ea1f50-f0d9-412b-9569-6a62280c8085; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 3;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = 95d107f1-f377-4088-a3c8-84a417013385;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 1;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = 95d107f1-f377-4088-a3c8-84a417013385; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 0;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = c0ae7e06-f8be-44b2-8937-603ab577267e;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 2;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = c0ae7e06-f8be-44b2-8937-603ab577267e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 1;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasParameter; obj = 78a06c7a-026e-4417-aca6-ee28910779cf;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasValue; obj = 3;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = 78a06c7a-026e-4417-aca6-ee28910779cf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParhasPositionInVector; obj = 2;
+sub = bbd7761c-67a1-4745-9cbb-ce915aa81045; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = ValidParameter;
+sub = a8d82954-a6a2-4156-b732-e85208417c8a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 51609b44-f393-4871-9e9e-e68e63619b5e;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 7a77525f-8e52-4c3a-9d03-9c6d26d6b1e6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 51609b44-f393-4871-9e9e-e68e63619b5e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 2c526106-df9d-4877-ad69-21bf508ee088
+Final URI of the input of the closure before serialization: 2c526106-df9d-4877-ad69-21bf508ee088
+Closure:
+URI: 45d9acab-dc3e-4b03-a9b8-0a74f0178687Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 56360457-b8df-40fe-96bc-ba633a21e97b
+parameter URI: 2c526106-df9d-4877-ad69-21bf508ee088 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 483a344a-2344-44a1-a30d-97a4d9d6c5e2
+parameter URI: d2145e6e-1127-47d4-a6c6-17073f4269e7 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 45d9acab-dc3e-4b03-a9b8-0a74f0178687
+Triples:
+sub = 45d9acab-dc3e-4b03-a9b8-0a74f0178687; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 45d9acab-dc3e-4b03-a9b8-0a74f0178687; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 45d9acab-dc3e-4b03-a9b8-0a74f0178687; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 45d9acab-dc3e-4b03-a9b8-0a74f0178687; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 56360457-b8df-40fe-96bc-ba633a21e97b;
+sub = 56360457-b8df-40fe-96bc-ba633a21e97b; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 56360457-b8df-40fe-96bc-ba633a21e97b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 2c526106-df9d-4877-ad69-21bf508ee088;
+sub = 56360457-b8df-40fe-96bc-ba633a21e97b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 56360457-b8df-40fe-96bc-ba633a21e97b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 2c526106-df9d-4877-ad69-21bf508ee088; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 2c526106-df9d-4877-ad69-21bf508ee088; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 2c526106-df9d-4877-ad69-21bf508ee088; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 2c526106-df9d-4877-ad69-21bf508ee088; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 45d9acab-dc3e-4b03-a9b8-0a74f0178687; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 483a344a-2344-44a1-a30d-97a4d9d6c5e2;
+sub = 483a344a-2344-44a1-a30d-97a4d9d6c5e2; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 483a344a-2344-44a1-a30d-97a4d9d6c5e2; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = d2145e6e-1127-47d4-a6c6-17073f4269e7;
+sub = 483a344a-2344-44a1-a30d-97a4d9d6c5e2; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 483a344a-2344-44a1-a30d-97a4d9d6c5e2; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = d2145e6e-1127-47d4-a6c6-17073f4269e7; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = d2145e6e-1127-47d4-a6c6-17073f4269e7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = d2145e6e-1127-47d4-a6c6-17073f4269e7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: c70cd491-1819-4148-a737-07194382fe2e
+Final URI of the input of the closure before serialization: c70cd491-1819-4148-a737-07194382fe2e
+Closure:
+URI: 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 3783633d-4938-41e6-8dad-b9ff45aaddb6
+parameter URI: c70cd491-1819-4148-a737-07194382fe2e ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= b0bffc68-225f-4982-ba45-09038f670265
+parameter URI: 2550ea3e-db81-4d96-8a69-42abc5336a71 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4
+Triples:
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 3783633d-4938-41e6-8dad-b9ff45aaddb6;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = c70cd491-1819-4148-a737-07194382fe2e;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = b0bffc68-225f-4982-ba45-09038f670265;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 2550ea3e-db81-4d96-8a69-42abc5336a71;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 3783633d-4938-41e6-8dad-b9ff45aaddb6
+parameter URI: c70cd491-1819-4148-a737-07194382fe2e ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= b0bffc68-225f-4982-ba45-09038f670265
+parameter URI: 2550ea3e-db81-4d96-8a69-42abc5336a71 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4
+Triples:
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 3783633d-4938-41e6-8dad-b9ff45aaddb6;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = c70cd491-1819-4148-a737-07194382fe2e;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 3783633d-4938-41e6-8dad-b9ff45aaddb6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = c70cd491-1819-4148-a737-07194382fe2e; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 77ff3bf7-eaad-44e3-8d2a-a684bce54cb4; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = b0bffc68-225f-4982-ba45-09038f670265;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 2550ea3e-db81-4d96-8a69-42abc5336a71;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = b0bffc68-225f-4982-ba45-09038f670265; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 2550ea3e-db81-4d96-8a69-42abc5336a71; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 9d28e296-4f8c-43a5-98bb-ffec2912cc41
+Final URI of the input of the closure before serialization: 9d28e296-4f8c-43a5-98bb-ffec2912cc41
+Closure:
+URI: a01caec2-0312-4770-9991-d11cc6f23e63Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= b95971eb-7d81-44c3-8f59-57cb3ee54b64
+parameter URI: 9d28e296-4f8c-43a5-98bb-ffec2912cc41 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 42e1b7ea-4562-48ff-b88b-c9ed962d80f7
+parameter URI: 8c76fe00-5839-4a75-86e9-ed8b4b528f68 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: a01caec2-0312-4770-9991-d11cc6f23e63
+Triples:
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = b95971eb-7d81-44c3-8f59-57cb3ee54b64;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 9d28e296-4f8c-43a5-98bb-ffec2912cc41;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 8c76fe00-5839-4a75-86e9-ed8b4b528f68;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: a01caec2-0312-4770-9991-d11cc6f23e63Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= b95971eb-7d81-44c3-8f59-57cb3ee54b64
+parameter URI: 9d28e296-4f8c-43a5-98bb-ffec2912cc41 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 42e1b7ea-4562-48ff-b88b-c9ed962d80f7
+parameter URI: 8c76fe00-5839-4a75-86e9-ed8b4b528f68 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: a01caec2-0312-4770-9991-d11cc6f23e63
+Triples:
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = b95971eb-7d81-44c3-8f59-57cb3ee54b64;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 9d28e296-4f8c-43a5-98bb-ffec2912cc41;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = b95971eb-7d81-44c3-8f59-57cb3ee54b64; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 9d28e296-4f8c-43a5-98bb-ffec2912cc41; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = a01caec2-0312-4770-9991-d11cc6f23e63; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 8c76fe00-5839-4a75-86e9-ed8b4b528f68;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 42e1b7ea-4562-48ff-b88b-c9ed962d80f7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 8c76fe00-5839-4a75-86e9-ed8b4b528f68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 1f01160b-c457-482d-af82-ef6d7ba50ad6
+Final URI of the input of the closure before serialization: 1f01160b-c457-482d-af82-ef6d7ba50ad6
+Closure:
+URI: b2c74c34-3581-4d95-85db-505857f6b716Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 1d9b074d-5f8c-4233-8f06-db6fbc1bed40
+parameter URI: 1f01160b-c457-482d-af82-ef6d7ba50ad6 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0
+parameter URI: 57f7a403-0eec-4942-b2d8-c216acedad70 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: b2c74c34-3581-4d95-85db-505857f6b716
+Triples:
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 1f01160b-c457-482d-af82-ef6d7ba50ad6;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 57f7a403-0eec-4942-b2d8-c216acedad70;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: b2c74c34-3581-4d95-85db-505857f6b716Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 1d9b074d-5f8c-4233-8f06-db6fbc1bed40
+parameter URI: 1f01160b-c457-482d-af82-ef6d7ba50ad6 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0
+parameter URI: 57f7a403-0eec-4942-b2d8-c216acedad70 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: b2c74c34-3581-4d95-85db-505857f6b716
+Triples:
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 1f01160b-c457-482d-af82-ef6d7ba50ad6;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 1d9b074d-5f8c-4233-8f06-db6fbc1bed40; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 1f01160b-c457-482d-af82-ef6d7ba50ad6; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = b2c74c34-3581-4d95-85db-505857f6b716; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 57f7a403-0eec-4942-b2d8-c216acedad70;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = d285f1d2-e68d-4ec8-a9f8-6cd9eb406ed0; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 57f7a403-0eec-4942-b2d8-c216acedad70; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: cb0c395b-105b-43b8-827b-b0c6621153c8
+Final URI of the input of the closure before serialization: cb0c395b-105b-43b8-827b-b0c6621153c8
+Closure:
+URI: 723c10bc-3a2b-4eba-b271-bd0e0a340bafName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 371e93a9-033c-493e-b33e-f79ef0366c68
+parameter URI: cb0c395b-105b-43b8-827b-b0c6621153c8 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 8ff52d71-95b6-4cc8-bd09-06da4f372d86
+parameter URI: 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 723c10bc-3a2b-4eba-b271-bd0e0a340baf
+Triples:
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 371e93a9-033c-493e-b33e-f79ef0366c68;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = cb0c395b-105b-43b8-827b-b0c6621153c8;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 8ff52d71-95b6-4cc8-bd09-06da4f372d86;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 723c10bc-3a2b-4eba-b271-bd0e0a340bafName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 371e93a9-033c-493e-b33e-f79ef0366c68
+parameter URI: cb0c395b-105b-43b8-827b-b0c6621153c8 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 8ff52d71-95b6-4cc8-bd09-06da4f372d86
+parameter URI: 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 723c10bc-3a2b-4eba-b271-bd0e0a340baf
+Triples:
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 371e93a9-033c-493e-b33e-f79ef0366c68;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = cb0c395b-105b-43b8-827b-b0c6621153c8;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 371e93a9-033c-493e-b33e-f79ef0366c68; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = cb0c395b-105b-43b8-827b-b0c6621153c8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 723c10bc-3a2b-4eba-b271-bd0e0a340baf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 8ff52d71-95b6-4cc8-bd09-06da4f372d86;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 8ff52d71-95b6-4cc8-bd09-06da4f372d86; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 17a6ebaf-d7e2-4f8d-a044-a33f1ed74e3f; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372
+Final URI of the input of the closure before serialization: 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372
+Closure:
+URI: bf214fca-e105-425f-8be2-70ba77dab398Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 7b7c7ced-ac54-47ca-bf70-7eb04468df98
+parameter URI: 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c
+parameter URI: 1d5e9d6d-a490-40c2-aa05-399c55c57414 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: bf214fca-e105-425f-8be2-70ba77dab398
+Triples:
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 7b7c7ced-ac54-47ca-bf70-7eb04468df98;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 1d5e9d6d-a490-40c2-aa05-399c55c57414;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: bf214fca-e105-425f-8be2-70ba77dab398Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 7b7c7ced-ac54-47ca-bf70-7eb04468df98
+parameter URI: 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c
+parameter URI: 1d5e9d6d-a490-40c2-aa05-399c55c57414 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: bf214fca-e105-425f-8be2-70ba77dab398
+Triples:
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 7b7c7ced-ac54-47ca-bf70-7eb04468df98;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 7b7c7ced-ac54-47ca-bf70-7eb04468df98; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 9dac0794-0d3a-4cb7-9aaa-8c620c0f4372; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = bf214fca-e105-425f-8be2-70ba77dab398; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 1d5e9d6d-a490-40c2-aa05-399c55c57414;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 2bcd60eb-100e-44e7-bd0f-35f7dddbcd8c; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 1d5e9d6d-a490-40c2-aa05-399c55c57414; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 74fe3ab6-3576-4a60-9d4b-97fe934e3694
+Final URI of the input of the closure before serialization: 74fe3ab6-3576-4a60-9d4b-97fe934e3694
+Closure:
+URI: 5575b8e8-3207-4901-9b99-958967a0cbd7Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e7d6176a-da27-42f9-b2bf-19c29a21023b
+parameter URI: 74fe3ab6-3576-4a60-9d4b-97fe934e3694 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= f4fdeb74-9e6c-4b57-ab04-74b424657ed5
+parameter URI: e1f1f52a-a050-44ec-9630-6e429264fe62 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 5575b8e8-3207-4901-9b99-958967a0cbd7
+Triples:
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e7d6176a-da27-42f9-b2bf-19c29a21023b;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 74fe3ab6-3576-4a60-9d4b-97fe934e3694;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = f4fdeb74-9e6c-4b57-ab04-74b424657ed5;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = e1f1f52a-a050-44ec-9630-6e429264fe62;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 5575b8e8-3207-4901-9b99-958967a0cbd7Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e7d6176a-da27-42f9-b2bf-19c29a21023b
+parameter URI: 74fe3ab6-3576-4a60-9d4b-97fe934e3694 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= f4fdeb74-9e6c-4b57-ab04-74b424657ed5
+parameter URI: e1f1f52a-a050-44ec-9630-6e429264fe62 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 5575b8e8-3207-4901-9b99-958967a0cbd7
+Triples:
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e7d6176a-da27-42f9-b2bf-19c29a21023b;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 74fe3ab6-3576-4a60-9d4b-97fe934e3694;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e7d6176a-da27-42f9-b2bf-19c29a21023b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 74fe3ab6-3576-4a60-9d4b-97fe934e3694; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 5575b8e8-3207-4901-9b99-958967a0cbd7; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = f4fdeb74-9e6c-4b57-ab04-74b424657ed5;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = e1f1f52a-a050-44ec-9630-6e429264fe62;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = f4fdeb74-9e6c-4b57-ab04-74b424657ed5; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = e1f1f52a-a050-44ec-9630-6e429264fe62; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: e239517a-bd09-44d3-a4dc-27f23b00d136
+Final URI of the input of the closure before serialization: e239517a-bd09-44d3-a4dc-27f23b00d136
+Closure:
+URI: 8147f6ff-2121-4d93-8f17-3902940b6ccfName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 42e3bba3-ada4-42ea-9ac9-4d93436eb1af
+parameter URI: e239517a-bd09-44d3-a4dc-27f23b00d136 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= d5d221b1-1fb1-4021-afc2-abbcac9c5fc9
+parameter URI: c2b2493b-40da-4bf4-aec7-fd83c42ead15 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 8147f6ff-2121-4d93-8f17-3902940b6ccf
+Triples:
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = e239517a-bd09-44d3-a4dc-27f23b00d136;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = c2b2493b-40da-4bf4-aec7-fd83c42ead15;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 8147f6ff-2121-4d93-8f17-3902940b6ccfName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 42e3bba3-ada4-42ea-9ac9-4d93436eb1af
+parameter URI: e239517a-bd09-44d3-a4dc-27f23b00d136 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= d5d221b1-1fb1-4021-afc2-abbcac9c5fc9
+parameter URI: c2b2493b-40da-4bf4-aec7-fd83c42ead15 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 8147f6ff-2121-4d93-8f17-3902940b6ccf
+Triples:
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = e239517a-bd09-44d3-a4dc-27f23b00d136;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 42e3bba3-ada4-42ea-9ac9-4d93436eb1af; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = e239517a-bd09-44d3-a4dc-27f23b00d136; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 8147f6ff-2121-4d93-8f17-3902940b6ccf; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = c2b2493b-40da-4bf4-aec7-fd83c42ead15;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = d5d221b1-1fb1-4021-afc2-abbcac9c5fc9; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = c2b2493b-40da-4bf4-aec7-fd83c42ead15; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 2b2b0661-9298-46bb-8ca7-e06925e48433
+Final URI of the input of the closure before serialization: 2b2b0661-9298-46bb-8ca7-e06925e48433
+Closure:
+URI: b3e3d835-4f1a-4302-89bb-c8ceee177b3bName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e1d86c6d-5bde-4167-a7ba-eb8181787be3
+parameter URI: 2b2b0661-9298-46bb-8ca7-e06925e48433 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 53fe5049-921e-4212-af7d-f868b39e3d4a
+parameter URI: bad3d901-fa29-4c43-abfe-d403ca8ee929 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: b3e3d835-4f1a-4302-89bb-c8ceee177b3b
+Triples:
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e1d86c6d-5bde-4167-a7ba-eb8181787be3;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 2b2b0661-9298-46bb-8ca7-e06925e48433;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 53fe5049-921e-4212-af7d-f868b39e3d4a;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = bad3d901-fa29-4c43-abfe-d403ca8ee929;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: b3e3d835-4f1a-4302-89bb-c8ceee177b3bName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e1d86c6d-5bde-4167-a7ba-eb8181787be3
+parameter URI: 2b2b0661-9298-46bb-8ca7-e06925e48433 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 53fe5049-921e-4212-af7d-f868b39e3d4a
+parameter URI: bad3d901-fa29-4c43-abfe-d403ca8ee929 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: b3e3d835-4f1a-4302-89bb-c8ceee177b3b
+Triples:
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e1d86c6d-5bde-4167-a7ba-eb8181787be3;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 2b2b0661-9298-46bb-8ca7-e06925e48433;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e1d86c6d-5bde-4167-a7ba-eb8181787be3; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 2b2b0661-9298-46bb-8ca7-e06925e48433; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = b3e3d835-4f1a-4302-89bb-c8ceee177b3b; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 53fe5049-921e-4212-af7d-f868b39e3d4a;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = bad3d901-fa29-4c43-abfe-d403ca8ee929;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 53fe5049-921e-4212-af7d-f868b39e3d4a; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = bad3d901-fa29-4c43-abfe-d403ca8ee929; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: 7b8cb649-1a82-4434-8b02-d6ccdf8babe8
+Final URI of the input of the closure before serialization: 7b8cb649-1a82-4434-8b02-d6ccdf8babe8
+Closure:
+URI: 82711f1a-82a5-4530-8638-2a4770745deaName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 3abb4589-a940-4141-95a6-efc8a4fb7771
+parameter URI: 7b8cb649-1a82-4434-8b02-d6ccdf8babe8 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 9e3523d4-8245-49aa-b1e7-e59d27c62655
+parameter URI: 852124ee-a7c0-4244-ae13-528a5c5a14dd ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 82711f1a-82a5-4530-8638-2a4770745dea
+Triples:
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 3abb4589-a940-4141-95a6-efc8a4fb7771;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 9e3523d4-8245-49aa-b1e7-e59d27c62655;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 852124ee-a7c0-4244-ae13-528a5c5a14dd;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 82711f1a-82a5-4530-8638-2a4770745deaName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= 3abb4589-a940-4141-95a6-efc8a4fb7771
+parameter URI: 7b8cb649-1a82-4434-8b02-d6ccdf8babe8 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= 9e3523d4-8245-49aa-b1e7-e59d27c62655
+parameter URI: 852124ee-a7c0-4244-ae13-528a5c5a14dd ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 82711f1a-82a5-4530-8638-2a4770745dea
+Triples:
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = 3abb4589-a940-4141-95a6-efc8a4fb7771;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = 3abb4589-a940-4141-95a6-efc8a4fb7771; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = 7b8cb649-1a82-4434-8b02-d6ccdf8babe8; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 82711f1a-82a5-4530-8638-2a4770745dea; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = 9e3523d4-8245-49aa-b1e7-e59d27c62655;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 852124ee-a7c0-4244-ae13-528a5c5a14dd;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = 9e3523d4-8245-49aa-b1e7-e59d27c62655; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 852124ee-a7c0-4244-ae13-528a5c5a14dd; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+I have given the the following URI to the input: f3cfe845-0ce1-45a9-8bb2-9c8f1d327489
+Final URI of the input of the closure before serialization: f3cfe845-0ce1-45a9-8bb2-9c8f1d327489
+Closure:
+URI: 1c7e2185-3226-4af7-bc78-09357f519516Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e70169c8-46cf-4505-b25e-7810fa5f8967
+parameter URI: f3cfe845-0ce1-45a9-8bb2-9c8f1d327489 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= e4453dfb-d10c-4161-97d5-06f6818fd1fc
+parameter URI: 250b10f5-e72c-45b2-9324-47de71ec0eb1 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 1c7e2185-3226-4af7-bc78-09357f519516
+Triples:
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e70169c8-46cf-4505-b25e-7810fa5f8967;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = e4453dfb-d10c-4161-97d5-06f6818fd1fc;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 250b10f5-e72c-45b2-9324-47de71ec0eb1;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+Closure:
+URI: 1c7e2185-3226-4af7-bc78-09357f519516Name: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosureinput ports:
+port index = 0 + name = closureLibrary.VectorParPort@13e205fURI= e70169c8-46cf-4505-b25e-7810fa5f8967
+parameter URI: f3cfe845-0ce1-45a9-8bb2-9c8f1d327489 ParameterValid: false
+output ports:
+port index = 0 + name = closureLibrary.SingleParPort@1bf73faURI= e4453dfb-d10c-4161-97d5-06f6818fd1fc
+parameter URI: 250b10f5-e72c-45b2-9324-47de71ec0eb1 ParameterValue: nullParameterValid false
+Writing Closure triples
+Closure: 1c7e2185-3226-4af7-bc78-09357f519516
+Triples:
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AtomicClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasName; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ComputationHasFunctionalBehaviour; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#AddVectorIntClosure;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasInputPort; obj = e70169c8-46cf-4505-b25e-7810fa5f8967;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParPort;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = In1;
+sub = e70169c8-46cf-4505-b25e-7810fa5f8967; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorialParameter;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = null;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#VectorParhasDimension; obj = 0;
+sub = f3cfe845-0ce1-45a9-8bb2-9c8f1d327489; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;
+sub = 1c7e2185-3226-4af7-bc78-09357f519516; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ClosureHasOutputPort; obj = e4453dfb-d10c-4161-97d5-06f6818fd1fc;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#SingleParPort;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortAttachedToPar; obj = 250b10f5-e72c-45b2-9324-47de71ec0eb1;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasName; obj = Out;
+sub = e4453dfb-d10c-4161-97d5-06f6818fd1fc; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#PortHasDatatype; obj = int;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.w3.org/1999/02/22-rdf-syntax-ns#type; obj = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Parameter;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParHasDatatype; obj = int;
+sub = 250b10f5-e72c-45b2-9324-47de71ec0eb1; pred = http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#ParIsValid; obj = InvalidParameter;

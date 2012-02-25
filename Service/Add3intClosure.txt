@@ -1,0 +1,15 @@
+Closure:
+URI: 0f2d8944-7e87-4a46-8415-ba8f6a7e57eaName: http://www.semanticweb.org/ontologies/2010/11/TestCloud.owl#Add3IntClosureinput ports:
+port index = 0 + name = In1URI= 80b2d0bd-203a-4a5d-af2c-74e337319b88
+parameter URI: 93e9d3ab-ed60-4a68-bc05-8a1555f0b02a ParameterValue: nullParameterValid false
+port index = 1 + name = In2URI= a9309173-4046-462d-829c-ebf51b588663
+parameter URI: 6418189a-1dfa-44a0-b0f0-35fac5516d5a ParameterValue: 1ParameterValid true
+port index = 2 + name = In3URI= 9dbe7c0f-a1ed-48d1-bad6-3a3c126f0590
+parameter URI: 4569b917-4c86-428a-8334-551ab802fcf2 ParameterValue: nullParameterValid false
+output ports:
+port index = 0 + name = OutURI= 4aadf708-f70b-4b41-bf6f-8acee76917de
+parameter URI: d6caddbf-c6c7-4963-b4f1-edf804f00d5b ParameterValue: nullParameterValid false
+
+Add3IntClosure-> I am going to execute the sum input 0 closureLibrary.SingleParameter@64f6cd
+Add3IntClosure-> I am going to execute the sum input 1 closureLibrary.SingleParameter@872380
+Add3IntClosure-> I am going to execute the sum input 2 closureLibrary.SingleParameter@2bb514
