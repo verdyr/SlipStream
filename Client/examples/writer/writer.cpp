@@ -5,7 +5,7 @@
 //
 // Copyright (c) Nokia Corporation, 2010. All Rights Reserved.
 //
-// JPL 20.10.2010
+// SAB, JPL w/RSB
 //
 // Based on
 // - http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html

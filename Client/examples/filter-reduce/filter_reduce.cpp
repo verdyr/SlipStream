@@ -1,6 +1,6 @@
 // filter_reduce.cpp - Examples of using QBlock with QtConcurrentFilter library.
 //
-// JPL 11.11.2010
+// SAB, JPL w/RSB 11.11.2010
 
 #include <QtCore/QCoreApplication>
 #include <QtConcurrentFilter>

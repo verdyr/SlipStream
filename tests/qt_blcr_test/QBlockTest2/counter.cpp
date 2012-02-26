@@ -5,7 +5,7 @@
 //
 // Copyright (c) Nokia Corporation, 2010. All Rights Reserved.
 //
-// JPL 14.10.2010
+// SAB, JPL w/RSB
 
 #include <tr1/functional>
 #include <iostream>

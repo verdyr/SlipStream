@@ -1,6 +1,6 @@
 // Initial draft of the proposed QBLock class, with an example of // a simple counter.
 //
-// JPL 27.9.2010
+// SAB, JPL w/RSB
 
 #include <tr1/functional>
 #include <iostream>

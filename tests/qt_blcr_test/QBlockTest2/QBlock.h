@@ -6,7 +6,7 @@
 //
 // Copyright (c) Nokia Corporation, 2010. All Rights Reserved.
 //
-// JPL 14.10.2010
+// SAB, JPL w/RSB
 //
 // Note: to compile, add the following lines to the .pro file in Qt Creator:
 //
