@@ -4,8 +4,8 @@ Currently : 26/02/2012
 optimization is not the task but functionalities (data, computation, identity and performance analysis) and architectural choices are priority at moment
 
 Currently two streams are considered:
-- Nokia Cloud, AWS based (OSS based) with Qt based client integration on device side
-- MSFT Cloud, WCF based with C# based client integration on device side (RIA, RX frameworks included)
+- AWS based Cloud (OSS based) with Qt based client integration on device side
+- Azure based Cloud, WCF based with C# based client integration on device side (RIA, RX frameworks included)
 streams are mirroring each other, bounded with Elata (Latency analyzer tool) and Backend to Backend protocol should shape the tools for Interoperability in Services.
 
 
