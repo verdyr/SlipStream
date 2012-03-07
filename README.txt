@@ -11,7 +11,7 @@ streams are mirroring each other, bounded with Elata (Latency analyzer tool) and
 
 An interface to serialize computations exist(AtomicClosure) and some class implement them addintClosure, add3intClosure, addsubintClosure, subintClosure
 
-Chain of these functionalities can be created and sent o the distributed information management system (RDF store)
+Chain of these functionalities can be created and executed by distributed information management system against any data stream or multiple streams. (in current setup RDF stream is assumed)
 
 Execution is made out of order and bean as soon as possible and in parallel
 
